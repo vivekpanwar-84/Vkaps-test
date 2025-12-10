@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+
+
+
+
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+body.dark.active {
+    background-color: #1E293B;
+}
+
+a.active hr {
+    display: block;
+}
+
+@media (max-width:640px) {
+    a.active {
+        color: red;
+    }
+
+}
