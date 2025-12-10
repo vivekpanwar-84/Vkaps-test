@@ -137,7 +137,7 @@ const Navbar = () => {
 
 
 
-                    {["Home", "Listings", "AddNewProduct",].map((item, idx) => (
+                    {["Home",  "AddNewProduct",].map((item, idx) => (
                         <NavLink
                             key={idx}
                             to={item === "Home" ? "/" : `/${item.toLowerCase()}`}
